@@ -1,0 +1,56 @@
+.text-color-white {
+    h2 {
+        color: $white;
+    }
+
+    font-weight: 500;
+}
+
+p {
+    color: $white;
+    opacity: .7;
+}
+
+.text-color-dark {
+    h2 {
+        color: $dark-blackish-blue;
+    }
+
+    h3 {
+        color: $dark-blackish-blue !important;
+    }
+
+    p {
+        color: $dark-blackish-blue;
+        opacity: .7;
+    }
+}
+
+.bg-violet {
+    background-color: $violet;
+
+ .author{
+    img{
+        border: 2px solid purple;
+    }
+ }
+}
+
+.bg-grayish {
+    background-color: $dark-grayish-blue;
+
+}
+
+.bg-white {
+    background-color: $white;
+}
+
+.bg-dark {
+    background-color: $dark-blackish-blue;
+    
+    .author{
+        img{
+            border: 2px solid $violet;
+        }
+    }
+}
